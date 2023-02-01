@@ -24,7 +24,7 @@ setup(
     url=about['__url__'],
     packages=['fastdimr'],
     include_package_data=True,
-    python_requires=">=3.7.*",
+    python_requires=">=3.7",
     install_requires=['numpy', 'pandas', 'scikit-learn'],
     license=about['__license__'],
     zip_safe=False,
